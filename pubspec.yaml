@@ -1,0 +1,39 @@
+name: untitled
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Firebase الأساسي
+  firebase_core: ^2.24.0
+  firebase_analytics: ^10.4.0
+
+  # Firebase Auth
+  firebase_auth: ^4.12.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: 0.14.4
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.4.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/IconApp.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/mogtrab.png
+    - assets/IconApp.png

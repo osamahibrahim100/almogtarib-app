@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "253214992697",
+    "project_id": "almogtarib-app",
+    "storage_bucket": "almogtarib-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253214992697:android:17b1dca5f4105d2ed5e0e8",
+        "android_client_info": {
+          "package_name": "com.almogtarb.almogtarb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_zPtldtygxWBZs8mz_TTujQRVspYE7M8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253214992697:android:03a163f6fd6b1345d5e0e8",
+        "android_client_info": {
+          "package_name": "com.mogtrab.mogtrab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_zPtldtygxWBZs8mz_TTujQRVspYE7M8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

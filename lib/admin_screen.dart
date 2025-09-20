@@ -113,7 +113,9 @@ class _AdminScreenState extends State<AdminScreen> {
                 backgroundColor: Colors.green,
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
               ),
-              child: Text("تأكيد التبرع"),
+              child: Text("تأكيد التبرع",
+              style: TextStyle(color: Colors.white),
+              ),
             ),
             SizedBox(height: 20),
 

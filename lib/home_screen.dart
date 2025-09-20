@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'LoginScreen.dart';
 import 'beneficiaries_screen.dart';
 import 'donors_screen.dart';
-import 'admin_screen.dart'; // شاشة Admin الجديدة
+import 'admin_screen.dart';
+
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -14,6 +16,16 @@ class HomeScreen extends StatelessWidget {
         ),
         backgroundColor: Color(0xFF0b3355),
         centerTitle: true,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back, color: Colors.white),
+          onPressed: () {
+            // العودة لشاشة تسجيل الدخول
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(builder: (context) => LoginScreen()),
+            );
+          },
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),

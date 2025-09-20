@@ -145,14 +145,14 @@ class BeneficiariesScreen extends StatelessWidget {
                           );
                         },
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.grey[700],
+                          backgroundColor: Colors.blue[100],
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(12),
                           ),
                         ),
                         child: Text("تفاصيل التبرع",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.blue[1000],
                         ),),
                       ),
                     ],
